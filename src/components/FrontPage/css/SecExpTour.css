@@ -1,0 +1,20 @@
+.destination-carousel .slick-slide {
+    transition: all 0.3s ease;
+}
+
+.destination-carousel .slick-slide img {
+    transition: transform 0.3s ease;
+}
+
+.destination-carousel .slick-slide:hover img {
+    transform: scale(1.05);
+}
+
+.destination-carousel .slick-slide:hover .absolute {
+    opacity: 0.8;
+}
+
+button:focus {
+    outline: 2px solid #ff0000;
+    outline-offset: 2px;
+}

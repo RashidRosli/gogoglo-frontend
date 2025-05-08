@@ -1,0 +1,180 @@
+.SAD-super-admin-dashboard {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Navbar Styles */
+  .SAD-admin-navbar {
+    background-color: #007bff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .SAD-navbar-brand h2 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .SAD-navbar-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .SAD-navbar-links li {
+    margin-left: 20px;
+  }
+  
+  .SAD-navbar-links button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 5px 10px;
+  }
+  
+  .SAD-navbar-links button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+  }
+  
+  .SAD-logout-btn {
+    background-color: #dc3545 !important;
+    padding: 5px 15px !important;
+  }
+  
+  .SAD-logout-btn:hover {
+    background-color: #c82333 !important;
+  }
+  
+  /* Main Content */
+  .SAD-dashboard-main {
+    flex: 1;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  
+  .SAD-section {
+    margin-bottom: 40px;
+  }
+  
+  .SAD-section h2 {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+  
+  .SAD-data-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .SAD-data-table th,
+  .SAD-data-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .SAD-data-table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+  }
+  
+  .SAD-data-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .SAD-action-btn {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .SAD-action-btn {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .SAD-action-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .SAD-action-btn.SAD-delete {
+    background-color: #dc3545;
+  }
+  
+  .SAD-action-btn.SAD-delete:hover {
+    background-color: #c82333;
+  }
+  
+  .SAD-loading {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  /* Sales Section */
+  .SAD-sales-summary {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .SAD-sales-summary p {
+    font-size: 1.1rem;
+    color: #333;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    flex: 1 1 200px;
+  }
+  
+  .SAD-chart-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Footer Styles */
+  .SAD-admin-footer {
+    background-color: #f8f9fa;
+    padding: 15px 20px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+  }
+  
+  .SAD-admin-footer p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .SAD-footer-links a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  .SAD-footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .SAD-error-container {
+    text-align: center;
+    padding: 50px;
+    color: #dc3545;
+  }

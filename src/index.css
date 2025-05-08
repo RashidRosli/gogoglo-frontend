@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.react-datepicker-wrapper {
+  display: block !important;
+}
+
+.my-slider {
+  width: 100%; /* Adjust width as needed */
+  height: 5px; /* Adjust height as needed */
+  background: #ccc; /* Customize track color */
+  border-radius: 5px; /* Add rounded corners */
+}
+
+.my-thumb {
+  height: 16px; /* Adjust size as needed */
+  width: 16px;
+  top: -6px;
+  background: #2196f3; /* Customize thumb color */
+  cursor: pointer;
+  border-radius: 50%;
+  border: none; /* Remove default border */
+  outline: none; /* Remove default outline */
+}
+
+/* Optional: Add hover effect */
+.my-thumb:hover {
+  background: #1976d2;
+}
+
+.css-hlgwow {
+  padding: 0 2px 0 0 !important;
+}
+.css-1xc3v61-indicatorContainer {
+  padding: 5px !important;
+}
+
+.active-tab a {
+  color: blue !important;
+  font-weight: bold;
+  border-bottom: 2px solid blue;
+}
+
+.active-tab li:hover a {
+  /* Remove hover effect on active tab */
+  color: blue !important;
+}
+
+.active-tab-hotel a {
+  color: white !important;
+  background: linear-gradient(to right, #6366f1, #a855f7);
+  font-weight: 600;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
